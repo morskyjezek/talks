@@ -1,3 +1,11 @@
+
+.DS_Store
+.svn
+log/*.log
+tmp/**
+node_modules/
+.sass-cache
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
