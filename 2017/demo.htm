@@ -382,8 +382,8 @@ Reveal.addEventListener( 'customevent', function() {
 
 		</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+		<script src="/talks/lib/js/head.min.js"></script>
+		<script src="/talks/js/reveal.js"></script>
 
 		<script>
 
@@ -398,12 +398,12 @@ Reveal.addEventListener( 'customevent', function() {
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
-					{ src: 'talks/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'talks/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'talks/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'talks/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'talks/plugin/zoom-js/zoom.js', async: true },
-					{ src: 'talks/plugin/notes/notes.js', async: true }
+					{ src: '/talks/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/talks/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/talks/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/talks/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/talks/plugin/zoom-js/zoom.js', async: true },
+					{ src: '/talks/plugin/notes/notes.js', async: true }
 				]
 			});
 
